@@ -1,6 +1,6 @@
 <phpunit bootstrap="src/autoload.php">
     <testsuite name="Model Test Suite">
-        <directory>tests/</directory>
+        <directory>phpunit\src\Tests</directory>
     </testsuite>
     
       <logging>
@@ -14,7 +14,7 @@
     
     <filter>
 	  <blacklist>
-	    <directory>vendor</directory>
+	    <directory>phpunit</directory>
 	  </blacklist>
 	</filter>
     
